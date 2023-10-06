@@ -4,6 +4,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: SETUP JAVA
+        uses: actions/setup-java@v1
+        with:
+              java-version: 20
+
       - uses: actions/checkout@v2
       - name: Write a multi-line message
         run: mvn test
