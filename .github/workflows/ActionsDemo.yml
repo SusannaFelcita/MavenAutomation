@@ -4,4 +4,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      run: mvn test
+      - uses: actions/checkout@v2
+      - name: Write a multi-line message
+        run: mvn test
