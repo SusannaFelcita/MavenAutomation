@@ -11,10 +11,11 @@ import static util.Reusable.*;
 public class SampleTest {
     @Test
     public static void main() {
+        System.out.println("Github actions");
 
-        WebDriver driver= openBrowser("chrome");
+        /*WebDriver driver= openBrowser("chrome");
         openPage("https://google.com");
-        driver.findElement(By.xpath("//textarea[@class='gLFyf']")).sendKeys("hello world");
+        driver.findElement(By.xpath("//textarea[@class='gLFyf']")).sendKeys("hello world");*/
 
     }
 
