@@ -3,5 +3,5 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-  steps:
-    -run: mvn test
+    steps:
+      run: mvn test
